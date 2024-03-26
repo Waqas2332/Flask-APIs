@@ -7,4 +7,11 @@ print(players[:4]) # if you dont specify the first limit, it will start from the
 # Looping through the slice
 print("Here are the first three players on my team:")
 for player in players[:3]:
-    print(player.title())
+    print(player.title())   
+    
+    
+# copying list
+
+players_2 = players[:]
+
+print(players_2)
